@@ -1,0 +1,484 @@
+﻿<resources>
+
+    <string name="app_name">Remote Control Star</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Remote Control Star</string>
+    <string name="device_name">CTRL</string>
+    <string name="toast">TOAST</string>
+    <string name="study_radio">Study code</string>
+    <string name="known_radio">known code</string>
+    <string name="timeout">Timeout</string>
+    <string name="title_studying"><![CDATA[Are learning...]]></string>
+    <string name="title_studyed">Learning success</string>
+    <string name="title_about">About</string>
+    <string name="study_alert"><![CDATA[Please specify a button to learn"]]></string>
+    <string name="study_info"><![CDATA[Please be learned remote control transmitter head close alignment receiver transmitter head, a distance of about 3CM, and long learning keys 1 to 2S]]></string>
+    <string name="study_test">Test data</string>
+    <string name="study_repeat">Re-learning</string>
+    <string name="study_next">Learning the next</string>
+    <string name="study_save">Save data</string>
+    <string name="study_exit">Quit learning</string>
+    <string name="about_ok">OK</string>
+    <string name="device_type">Device Type</string>
+    <string name="name_text">Device Name</string>
+    <string name="count_text"></string>
+    <string name="auto_text">Auto</string>
+    <string name="stop_text">Stop</string>
+    <string name="up_text">Up</string>
+    <string name="down_text">Down</string>
+    <string name="manual_text">manually</string>
+    <string name="save_text">Save</string>
+    <string name="language">
+<![CDATA[
+        	1.Software installation:"*. Apk" files copied or downloaded to the phone memory card 
+        	through the "document management" or "File Manager" to find the file, 
+        	click on the relevant directory follow the prompts to install, 
+        	the system will generate: "mobile phone remote control icon;\n
+			2. Used for the first time to code value learning copy code search:\n
+    			\t\t2.1, code value learning copy: 
+    			election related equipment / menu / learning / specify a key / will be 
+    			learning remote control transmitter head close alignment transmitter head and 
+    			press the key to be learned-2S, follow the prompts operation 
+    			("test data", "re-learn", "learning to the next", "quit learning") ...... 
+    			repeat operation have been the end of all the keys, 
+    			learning completed press "quit learning" to exit the software.\n
+    			\t\t2.2, the code search: turn on the device, choose the appropriate device type, 
+    			brand or region name, then Press the automatic Jianniu the pairing device reaction: 
+    			such as switch machines, and out of positions, the volume change action, 
+    			press Stop and then press Save, check button is normal, not normal, repeat 
+    			operation can also manually upward, downward Search single brand or single area 
+    			to search pairing can not be in all brands or regions within the search code.\n
+			3.The code value learning to copy or exit the software, code search, and once again start to replace more than one wife remote control.]]>
+    </string>
+    <string name="about_info">
+<![CDATA[HONG XIN DA TECHNOLOGY CO.,LTD. SHENZHEN\n
+        							   http://www.hxdkj88.com\n
+        							        QQ: 2686603019\n
+        							        QQ: 305106487\n
+        							        Version:v2.0.1]]>
+    </string>
+    <string name="Long"><![CDATA[YONG LONG  TECHNOLOGY CO.,LTD. SHENZHEN]]></string>
+    <string name="LongAbout">
+<![CDATA[YONG LONG  TECHNOLOGY CO.,LTD. SHENZHEN\n
+        							   http://moshl.cn.alibaba.com\n
+        							         ＱＱ：616083613\n
+        							          Version:v1.0.1]]>
+    </string>
+    <string name="Clean"></string>
+    <string name="CleanAbout"><![CDATA[Version:v2.0.2\n]]></string>
+    <!-- BT -->
+    <string name="bt_name">BT</string>
+    <string name="bt_uuid"><![CDATA[00001101-0000-1000-8000-00805f9b34fb]]></string>
+    <string name="bt_not_connect">Device is not connected</string>
+    <string name="bt_lost_connect">The device is disconnected</string>
+    <string name="bt_connecting"><![CDATA[Connecting....]]></string>
+    <string name="bt_connected">Is connected </string>
+    <string name="bt_error">Bluetooth can not start</string>
+    <!-- Splash -->
+    <string name="splash_loading"><![CDATA[Loading...]]></string>
+    <!-- MainActivity -->
+    <string name="str_title">Warning</string>
+    <string name="str_message">Quit?</string>
+    <string name="str_ok">OK</string>
+    <string name="str_back">Return</string>
+
+    <!-- DeviceActivity -->
+    <string name="str_find">Search</string>
+    <string name="scanning">Scanning device</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No equipment paired</string>
+    <string name="none_found">Did not find the device</string>
+    <string name="str_paired_devices">Paired devices</string>
+    <string name="str_other_devices">Other available equipment</string>
+
+    <!-- TV -->
+    <string name="tv">tv</string>
+    <string name="str_tv">TV</string>
+    <string name="tv_power">ON/OFF</string>
+    <string name="tv_mute">Mute</string>
+    <string name="tv_key0">0</string>
+    <string name="tv_key1">1</string>
+    <string name="tv_key2">2</string>
+    <string name="tv_key3">3</string>
+    <string name="tv_key4">4</string>
+    <string name="tv_key5">5</string>
+    <string name="tv_key6">6</string>
+    <string name="tv_key7">7</string>
+    <string name="tv_key8">8</string>
+    <string name="tv_key9">9</string>
+    <string name="tv_key10"><![CDATA[-/]]></string>
+    <string name="tv_menu">Menu</string>
+    <string name="tv_chadd">CH+</string>
+    <string name="tv_chsub">CH-</string>
+    <string name="tv_voladd">Vol+</string>
+    <string name="tv_volsub">Vol-</string>
+    <string name="tv_ok">OK</string>
+    <string name="tv_av">AV/TV</string>
+    <string name="tv_back">Return</string>
+
+
+    <!-- STB -->
+    <string name="stb">stb</string>
+    <string name="str_stb">STB</string>
+    <string name="stb_wait">Standby</string>
+    <string name="stb_watch">Guides</string>
+    <string name="stb_back">Return</string>
+    <string name="stb_key0">0</string>
+    <string name="stb_key1">1</string>
+    <string name="stb_key2">2</string>
+    <string name="stb_key3">3</string>
+    <string name="stb_key4">4</string>
+    <string name="stb_key5">5</string>
+    <string name="stb_key6">6</string>
+    <string name="stb_key7">7</string>
+    <string name="stb_key8">8</string>
+    <string name="stb_key9">9</string>
+    <string name="stb_chadd">CH+</string>
+    <string name="stb_chsub">CH-</string>
+    <string name="stb_voladd">Vol+</string>
+    <string name="stb_volsub">Vol-</string>
+    <string name="stb_up">Up</string>
+    <string name="stb_down">Down</string>
+    <string name="stb_left">Left</string>
+    <string name="stb_right">Right</string>
+    <string name="stb_ok">OK</string>
+    <string name="stb_menu">Menu</string>
+    <!-- DVD -->
+    <string name="dvd">dvd</string>
+    <string name="str_dvd">DVD</string>
+    <string name="dvd_power">ON/OF</string>
+    <string name="dvd_mute">Mute</string>
+    <string name="dvd_quickforward">>></string>
+    <string name="dvd_quickback"><![CDATA[<<]]></string>
+    <string name="dvd_play">Play</string>
+    <string name="dvd_stop">Stop</string>
+    <string name="dvd_upsong"><![CDATA[|<<]]></string>
+    <string name="dvd_downsong">>>|</string>
+    <string name="dvd_pause">Pause</string>
+    <string name="dvd_av">Format</string>
+    <string name="dvd_title">Title</string>
+    <string name="dvd_open">Pass in and out</string>
+    <string name="dvd_menu">Menu</string>
+    <string name="dvd_back">Return</string>
+    <string name="dvd_up">Up</string>
+    <string name="dvd_down">Down</string>
+    <string name="dvd_left">Left</string>
+    <string name="dvd_right">Right</string>
+    <string name="dvd_ok">OK</string>
+
+    <!-- FANS -->
+    <string name="fans">fans</string>
+    <string name="str_fans">Fans</string>
+    <string name="fans_power">ON/OFF</string>
+    <string name="fans_mode"> Mode</string>
+    <string name="fans_li">Anion</string>
+    <string name="fans_speed">Air Volume</string>
+    <string name="fans_key0">ON/Wind</string>
+    <string name="fans_speedlow">Low Speed</string>
+    <string name="fans_speedmiddle">Medium Speed</string>
+    <string name="fans_speedhight">High Speed</string>
+    <string name="fans_sleep">Sleep</string>
+    <string name="fans_freq">Shake</string>
+    <string name="fans_cool">Cold</string>
+    <string name="fans_timer">Timing</string>
+    <string name="fans_light">Light</string>
+    <string name="fans_key1">1</string>
+    <string name="fans_key2">2</string>
+    <string name="fans_key3">3</string>
+    <string name="fans_key4">4</string>
+    <string name="fans_key5">5</string>
+    <string name="fans_key6">6</string>
+    <string name="fans_key7">7</string>
+    <string name="fans_key8">8</string>
+    <string name="fans_key9">9</string>
+
+    <!-- Light -->
+    <string name="light">light</string>
+    <string name="str_light">LAMP</string>
+    <string name="light_power_all_on">All On</string>
+    <string name="light_power_all_off">All Off</string>
+    <string name="light_power_on">On</string>
+    <string name="light_power_off">OFF</string>
+    <string name="light_light">Brightness+</string>
+    <string name="light_dark">Brightness-</string>
+    <string name="light_lost">Burglar</string>
+    <string name="light_keyA">A</string>
+    <string name="light_keyB">B</string>
+    <string name="light_keyC">C</string>
+    <string name="light_keyD">D</string>
+    <string name="light_setting">SET</string>
+    <string name="light_study">Learn</string>
+    <string name="light_key1">1</string>
+    <string name="light_key2">2</string>
+    <string name="light_key3">3</string>
+    <string name="light_key4">4</string>
+    <string name="light_key5">5</string>
+    <string name="light_key6">6</string>
+    <string name="light_timer1">Timing1</string>
+    <string name="light_timer2">Timing2</string>
+    <string name="light_timer3">Timing3</string>
+    <string name="light_timer4">Timing4</string>
+    <!-- pjt -->
+    <string name="pjt">pjt</string>
+    <string name="str_pjt">PRJC</string>
+    <string name="pjt_power_on">ON</string>
+    <string name="pjt_power_off">OFF</string>
+    <string name="pjt_computer">PC</string>
+    <string name="pjt_video">VIDEO</string>
+    <string name="pjt_sign">Source</string>
+    <string name="pjt_zoomadd">Zoom +</string>
+    <string name="pjt_zoomsub">Zoom -</string>
+    <string name="pjt_pictureadd">Screens+</string>
+    <string name="pjt_picturesub">Screens-</string>
+    <string name="pjt_brightness">Brightness</string>
+    <string name="pjt_auto">Auto</string>
+    <string name="pjt_exit">Quit</string>
+    <string name="pjt_menu">Menu</string>
+    <string name="pjt_pause">Pause</string>
+    <string name="pjt_mute">Mute</string>
+    <string name="pjt_voladd">VOL+</string>
+    <string name="pjt_volsub">VOL-</string>
+    <string name="pjt_up">UP</string>
+    <string name="pjt_down">DOWN</string>
+    <string name="pjt_left">LEFT</string>
+    <string name="pjt_right">RIGHT</string>
+    <string name="pjt_ok">OK</string>
+    <!-- AIR -->
+    <string name="air">air</string>
+    <string name="str_air">ARC</string>
+    <string name="air_power">ON/OF</string>
+    <string name="air_tempadd">Up</string>
+    <string name="air_tempsub">Down</string>
+    <string name="air_mode">Mode</string>
+    <string name="air_wind_count">Air volume</string>
+    <string name="air_wind_dir">Manually Wind</string>
+    <string name="air_wind_auto_dir">Auto Wind</string>
+    <string name="air_mode_val">Mode:</string>
+    <string name="air_temp_val">Temperature:</string>
+    <string name="air_wind_dir_val">Wind Dir:</string>
+    <string name="air_wind_val">Air volume:</string>
+    <string name="air_wind_count_value_1">Auto</string>
+    <string name="air_wind_count_value_2">Low</string>
+    <string name="air_wind_count_value_3">middle</string>
+    <string name="air_wind_count_value_4">High</string>
+    <string name="air_wind_dir_value_1">Up</string>
+    <string name="air_wind_dir_value_2">middle</string>
+    <string name="air_wind_dir_value_3">Down</string>
+    <string name="air_wind_dir_value_4">Auto</string>
+    <string name="air_wind_auto_dir_value_1">ON</string>
+    <string name="air_wind_auto_dir_value_0">OFF</string>
+    <string name="air_mode_value_1">Auto</string>
+    <string name="air_mode_value_2">Refrigerating</string>
+    <string name="air_mode_value_3">Dehumidifying</string>
+    <string name="air_mode_value_4">Ventilation</string>
+    <string name="air_mode_value_5">Heating</string>
+    <string name="d">Degree</string>
+
+    <string-array name="type_array">
+        <item>TV</item>
+        <item>DVD</item>
+        <item>STB</item>
+        <item>ARC</item>
+        <item>FAN</item>
+        <item>PRJC</item>
+    </string-array>
+    <string-array name="tv_array">
+        <item>All</item>
+        <item>Changhong</item>
+        <item>Konka</item>
+        <item>Skyworth</item>
+        <item>TCL</item>
+        <item>Xia Hua</item>
+        <item>Hisense</item>
+        <item>Tsinghua Tongfang</item>
+        <item>Haier</item>
+        <item>Venus</item>
+        <item>Panda</item>
+        <item>Sony</item>
+        <item>Panasonic</item>
+        <item>Hitachi</item>
+        <item>Sharp</item>
+        <item>Toshiba</item>
+        <item>Philips</item>
+        <item>Samsung</item>
+        <item>Sanyo</item>
+        <item>Ridian</item>
+        <item>West Lake</item>
+        <item>Beijing</item>
+        <item>Gaoluhua</item>
+        <item>Leroy</item>
+        <item>Dongbao</item>
+        <item>Vice date</item>
+        <item>LG</item>
+        <item>Tupper</item>
+        <item>Changcheng</item>
+        <item>Yellow River</item>
+        <item>Huangshan</item>
+        <item>sanken</item>
+        <item>Polytron</item>
+        <item>Aiwa</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="dvd_array">
+        <item>All</item>
+        <item>BBK</item>
+        <item>Kim Jung</item>
+        <item>TCL</item>
+        <item>Changhong</item>
+        <item>Skyworth</item>
+        <item>Daewoo</item>
+        <item>Toshiba</item>
+        <item>Philips</item>
+        <item>Haier</item>
+        <item>Hisense</item>
+        <item>Deko</item>
+        <item>Konka</item>
+        <item>Queer voice</item>
+        <item>Hitachi</item>
+        <item>Samsung</item>
+        <item>Sanyo</item>
+        <item>Panasonic</item>
+        <item>Sony</item>
+        <item>Malata</item>
+        <item>Sharp</item>
+        <item>Amoi</item>
+        <item>Yushchenko</item>
+        <item>Shinco</item>
+        <item>Aiwa</item>
+        <item>Polytron</item>
+        <item>Sanken</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="stb_array">
+        <item>All</item>
+        <item>Beijing</item>
+        <item>Guangdong</item>
+        <item>Guangxi</item>
+        <item>Shanghai</item>
+        <item>Tianjin</item>
+        <item>Chongqing</item>
+        <item>Liaoning</item>
+        <item>Jiangsu</item>
+        <item>Hubei</item>
+        <item>Sichuan</item>
+        <item>Shanxi</item>
+        <item>Zhejiang</item>
+        <item>Hunan</item>
+        <item>Shandong</item>
+        <item>Anhui</item>
+        <item>Guizhou</item>
+        <item>Heilongjiang</item>
+        <item>Shanxi</item>
+        <item>Inner Mongolia</item>
+        <item>Yunnan</item>
+        <item>Henan</item>
+        <item>Hainan</item>
+        <item>Jilin</item>
+        <item>Hebei</item>
+        <item>Hong Kong</item>
+        <item>Fujian</item>
+        <item>Xinjiang</item>
+        <item>Jiangxi</item>
+        <item>East too</item>
+        <item>Coship</item>
+        <item>Chinasat</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="fans_array">
+        <item>All</item>
+        <item>Midea</item>
+        <item>Chang Cheng</item>
+        <item>Gree</item>
+        <item>Airmate</item>
+        <item>Kelon</item>
+        <item>Aucma</item>
+        <item>Little Swan	</item>
+        <item>Camel</item>
+        <item>Asteroid</item>
+        <item>Watson</item>
+        <item>Pioneer</item>
+        <item>Samp</item>
+        <item>Vanda</item>
+        <item>YongSheng/ Lianchuang</item>
+        <item>When Fung / Siyu</item>
+        <item>Tsann / Rongshida</item>
+        <item>Diamond / new</item>
+    </string-array>
+    <string-array name="pjt_array">
+        <item>All</item>
+        <item>Epson / Toshiba / Sharp</item>
+        <item>Panasonic / Founder / Fujitsu</item>
+        <item>Hitachi / Sony</item>
+        <item>Sanyo / Optoma</item>
+        <item>NEC/Mitsubishi / InFocus</item>
+        <item>Zhongbao / Ruicheng/SOME</item>
+        <item>HP / Dell / Canon / Po</item>
+        <item>Acer / BenQ</item>
+        <item>XianFeng/ Morningstar / Polaroid</item>
+        <item>AiQi / LG / PREMIER</item>
+        <item>Philips / ViewSonic</item>
+    </string-array>
+    <string-array name="air_array">
+        <item>ALL</item>
+        <item>美的/东芝</item>
+        <item>海尔</item>
+        <item>格力</item>
+        <item>志高</item>
+        <item>科龙/华宝</item>
+        <item>奥克斯</item>
+        <item>春兰</item>
+        <item>LG</item>
+        <item>TCL</item>
+        <item>三星</item>
+        <item>三洋</item>
+        <item>三凌重工</item>
+        <item>三凌电机</item>
+        <item>长虹</item>
+        <item>松下</item>
+        <item>内田</item>
+        <item>夏普</item>
+        <item>海信</item>
+        <item>新科</item>
+        <item>日立</item>
+        <item>华凌</item>
+        <item>华宝/科龙 </item>
+        <item>威力</item>
+        <item>长岭</item>
+        <item>迎燕</item>
+        <item>蓝波</item>
+        <item>玉兔</item>
+        <item>开利</item>
+        <item>东宝</item>
+        <item>高路华</item>
+        <item>澳柯玛/胜风</item>
+        <item>扬子</item>
+        <item>惠而浦</item>
+        <item>新科</item>
+        <item>大金</item>
+        <item>汇丰</item>
+        <item>东芝</item>
+        <item>伊莱克斯</item>
+        <item>熊猫</item>
+        <item>上凌</item>
+        <item>天元</item>
+        <item>三星/小三星</item>
+        <item>格兰仕</item>
+        <item>乐华</item>
+        <item>富士通</item>
+        <item>约克/麦克维尔</item>
+		<item>sanken</item>
+		<item>polytron</item>
+        <item>Other</item>
+    </string-array>
+    <!-- MENU -->
+    <string name="connect">Connection device</string>
+    <string name="discoverable">That can be found</string>
+    <string name="study">Learn</string>
+    <string name="help">Help</string>
+    <string name="options">select</string>
+    <string name="about">About</string>
+    <string name="quit">exit</string>
+    <string name="option_info"><![CDATA[The first use of the code operation: turn on the device, select the device type, brand or region name and then press automatic Jianniu, paired device reaction: such as switch machines, and out of positions, the volume change action, press the stopthen save the check button is normal, not normal, repeat operation can also manually upward, downward search single brand or a single area to search for matching less than All brand or region within the search code.]]></string>
+
+</resources>

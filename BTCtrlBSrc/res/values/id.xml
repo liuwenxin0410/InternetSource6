@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Message ID -->
+	<item name="MESSAGE_STATE_CHANGE" type="id"/>
+    <item name="MESSAGE_READ" type="id"/>
+    <item name="MESSAGE_WRITE" type="id"/>
+    <item name="MESSAGE_TOAST" type="id"/>
+    <item name="MESSAGE_REMAINCOUNT" type="id"/>
+    <item name="REQUEST_CONNECT_DEVICE" type="id"/>
+    <item name="REQUEST_OPTIONS" type="id"/>
+    <item name="REQUEST_ENABLE_BT" type="id"/>
+    <!-- MainActivity -->
+
+</resources>

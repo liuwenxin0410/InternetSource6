@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/text_wind_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/text_wind_dir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_show"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="60sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/air_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="@string/air_power" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/air_tempadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/air_tempadd" />
+
+        <Button
+            android:id="@+id/air_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/air_mode" />
+
+        <Button
+            android:id="@+id/air_tempsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/air_tempsub" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/air_wind_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/air_wind_count" />
+
+        <Button
+            android:id="@+id/air_wind_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/air_wind_dir" />
+
+        <Button
+            android:id="@+id/air_wind_auto_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/air_wind_auto_dir" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioStudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/study_radio"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radioKnown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/known_radio"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+</LinearLayout>

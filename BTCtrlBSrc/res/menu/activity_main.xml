@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/connect"/>
+    <item
+        android:id="@+id/study"
+        android:icon="@drawable/ic_menu_study"
+        android:title="@string/study"/>
+    <item
+        android:id="@+id/options"
+        android:icon="@drawable/ic_menu_options"
+        android:title="@string/options"/>
+    <!--
+        <item
+        android:id="@+id/discoverable"
+        android:icon="@drawable/ic_menu_discoverable"
+        android:title="@string/discoverable"/>
+    -->
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_menu_discoverable"
+        android:title="@string/help"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_menu_about"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/quit"
+        android:icon="@drawable/ic_menu_quit"
+        android:title="@string/quit"/>
+
+</menu>

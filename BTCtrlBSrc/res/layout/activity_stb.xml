@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stb_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_menu" />
+
+        <Button
+            android:id="@+id/stb_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_watch" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stb_key1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key1" />
+
+        <Button
+            android:id="@+id/stb_key2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key2" />
+
+        <Button
+            android:id="@+id/stb_key3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key3" />
+
+        <Button
+            android:id="@+id/stb_wait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_wait" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stb_key4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key4" />
+
+        <Button
+            android:id="@+id/stb_key5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key5" />
+
+        <Button
+            android:id="@+id/stb_key6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key6" />
+
+        <Button
+            android:id="@+id/stb_chadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_chadd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stb_key7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key7" />
+
+        <Button
+            android:id="@+id/stb_key8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key8" />
+
+        <Button
+            android:id="@+id/stb_key9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key9" />
+
+        <Button
+            android:id="@+id/stb_chsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_chsub" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stb_voladd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_voladd" />
+
+        <Button
+            android:id="@+id/stb_key0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_key0" />
+
+        <Button
+            android:id="@+id/stb_volsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_volsub" />
+
+        <Button
+            android:id="@+id/stb_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/stb_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stb_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/dvd_up" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stb_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/dvd_left" />
+
+        <Button
+            android:id="@+id/stb_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/dvd_ok" />
+
+        <Button
+            android:id="@+id/stb_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/dvd_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/stb_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/dvd_down" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioStudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/study_radio"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radioKnown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/known_radio"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+</LinearLayout>

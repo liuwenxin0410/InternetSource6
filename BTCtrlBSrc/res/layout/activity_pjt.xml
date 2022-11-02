@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pjt_power_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_power_on" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pjt_computer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_computer" />
+
+        <Button
+            android:id="@+id/pjt_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_video" />
+
+        <Button
+            android:id="@+id/pjt_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_sign" />
+
+        <Button
+            android:id="@+id/pjt_brightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_brightness" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pjt_zoomadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_zoomadd" />
+
+        <Button
+            android:id="@+id/pjt_zoomsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_zoomsub" />
+
+        <Button
+            android:id="@+id/pjt_pictureadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_pictureadd" />
+
+        <Button
+            android:id="@+id/pjt_picturesub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_picturesub" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pjt_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_auto" />
+
+        <Button
+            android:id="@+id/pjt_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_exit" />
+
+        <Button
+            android:id="@+id/pjt_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_menu" />
+
+        <Button
+            android:id="@+id/pjt_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_pause" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pjt_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_mute" />
+
+        <Button
+            android:id="@+id/pjt_voladd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_voladd" />
+
+        <Button
+            android:id="@+id/pjt_volsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_volsub" />
+
+        <Button
+            android:id="@+id/pjt_power_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_power_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pjt_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_up" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pjt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_left" />
+
+        <Button
+            android:id="@+id/pjt_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_ok" />
+
+        <Button
+            android:id="@+id/pjt_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pjt_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/pjt_down" />
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioStudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/study_radio"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radioKnown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/known_radio"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+</LinearLayout>

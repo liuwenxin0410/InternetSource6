@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/light_power_all_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_power_all_on" />
+
+        <Button
+            android:id="@+id/light_power_all_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_power_all_off" />
+
+        <Button
+            android:id="@+id/light_power_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_power_on" />
+
+        <Button
+            android:id="@+id/light_power_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_power_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/light_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_light" />
+
+        <Button
+            android:id="@+id/light_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_dark" />
+
+        <Button
+            android:id="@+id/light_lost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_lost" />
+
+        <Button
+            android:id="@+id/light_study"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_study" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/light_keyA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_keyA" />
+
+        <Button
+            android:id="@+id/light_keyB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_keyB" />
+
+        <Button
+            android:id="@+id/light_keyC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_keyC" />
+
+        <Button
+            android:id="@+id/light_keyD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_keyD" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/light_key1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_key1" />
+
+        <Button
+            android:id="@+id/light_key2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_key2" />
+
+        <Button
+            android:id="@+id/light_key3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_key3" />
+
+        <Button
+            android:id="@+id/light_key4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_key4" />
+    </LinearLayout>
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/light_key5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_key5" />
+
+        <Button
+            android:id="@+id/light_key6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_key6" />
+
+        <Button
+            android:id="@+id/light_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_setting" />
+
+        <Button
+            android:id="@+id/light_timer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_timer1" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/light_timer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_timer2" />
+
+        <Button
+            android:id="@+id/light_timer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_timer3" />
+
+        <Button
+            android:id="@+id/light_timer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+            android:text="@string/light_timer4" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioStudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/study_radio"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radioKnown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="@string/known_radio"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+</LinearLayout>
